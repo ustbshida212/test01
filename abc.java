@@ -1,9 +1,5 @@
 package com.ustbqianlongzhanlan;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
 
 import com.example.test05.pic.PhotoViewAttacher;
 import com.ustbqianlongzhanlan.R;
@@ -65,7 +61,6 @@ public class ServiceActivity extends Activity implements
 	private String path = null;
 	private String num = null;
 	private String n = null;
-	// 播放对象
 	private Bitmap bitmap = null;
 	private Thread thread = null;
 	private MediaPlayer mediaPlayer = null;
@@ -466,6 +461,10 @@ public class ServiceActivity extends Activity implements
 			}
 		});
 	}
+	
+	
+	
+	
 	/**
 	 * 返回当前的应用是否处于前台显示状态
 	 * @param $packageName
